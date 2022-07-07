@@ -1,0 +1,86 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.div1 {
+    min-height: 100%;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    font-size: 60px;
+    font-family: 'Nova Flat';
+    color: beige; 
+    text-align: center;
+    font-style: italic;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;  
+}
+  
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}  
+
+.div2 {
+    text-align: center;
+}
+
+.div3 {
+    margin: 2.5%;
+    font-size: 25px;
+    font-family: 'Nova Flat';
+}
+
+.div3 p {
+    text-align: center;
+}
+.pic {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
+} 
+    
+.thumbnail:hover { 
+    transform: scale(1.33); 
+}
+
+.div4 h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+.div4 h2 {
+    text-align: center;
+}
+
+.gift {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
